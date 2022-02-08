@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Source+Serif+4&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+/* Navigation Bar */
+header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        display: none;
+    }
+}
+.header-img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+/*===============*/
+
+/* Inception Section */
+h2, p {
+    margin: 25px 10px 20px 10px;
+}
+
+hr {
+    width: 500px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-image img {
+    display: block;
+    width: 500px;
+    height: 400px;
+    padding: 0 30px;
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
+.flex-container, .flex-image, img {
+    background-color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+/*===============*/
+
+
+/* Result Section */
+.product-container {
+    display: flex;
+    padding: 20px;
+}
+.product-image img {
+    height: 300px;
+    width: auto;
+}
+.buy-btn {
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-right: 45px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+.buy-btn:hover {
+    background-color: black;
+    color: #F2F2F2;
+}
+/*===============*/
+
+
+/* Team Section */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.team-container h3, h5 {
+    background-color: black;
+    color: #F2F2F2;
+    text-align: center;
+}
+.team-container, .team-image {
+    background-color: black;
+}
+.team-image img {
+    display: block;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 5px 10px;
+}
+/*===============*/
+
+/* Footer Section */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.btt-btn {
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-right: 45px;
+    font-family: 'Source Serif 4', sans-serif;
+    margin: 10px;
+}
+.btt-btn:hover {
+    background-color: black;
+    color: #F2F2F2;
+}
+/*===============*/
